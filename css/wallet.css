@@ -130,11 +130,17 @@ html{
     }
 }
 @media only screen and (max-width: 400px){
-
+body{
+    width: 100%;
+}
     #wallet-section .wallet-cards{
        display: flex;
        justify-content: space-evenly;
     }
+#connect-btn{
+    width: 6rem;
+    height: 3rem;
+}
 
     .modal-section{
    
@@ -166,10 +172,15 @@ html{
  .wallet-heading{
     font-weight: bolder!important;
     font-size: 2rem;
-    /* margin-left: -60px; */
-    margin: auto;
+    margin-left: -60px;
+    
     text-align: center;
  }
-
+ .container{
+    width: 100%;
+ }
+#wallet-card{
+    width: 100%;
+}
 }
     
