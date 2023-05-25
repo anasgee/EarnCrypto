@@ -133,10 +133,7 @@ html{
 body{
     width: 100%;
 }
-    #wallet-section .wallet-cards{
-       display: flex;
-       justify-content: space-evenly;
-    }
+    
 #connect-btn{
     width: 6rem;
     height: 3rem;
