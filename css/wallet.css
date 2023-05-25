@@ -169,12 +169,14 @@ body{
  .wallet-heading{
     font-weight: bolder!important;
     font-size: 2rem;
-    margin-left: -60px;
+    margin-left: -50px;
     
     text-align: center;
  }
  .container{
-    width: 100%;
+    width: 100%!important;
+    text-align: center;
+    align-items: center;
  }
 #wallet-card{
     width: 100%;
