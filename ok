@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earning | Home</title>
+</head>
+<body>
+    
+    <section>
+        <div class="navBar">
+            <div class="nav">
+                <div class="left_Nav">
+                    <h1>Earning<span>Site</span></h1>
+                </div>
+                <div class="right_Nav">
+                    <ul class="nav_List">
+                        <li class="nav_Item"><a href="#">Home</a></li>
+                        <li class="nav_Item"><a href="#">Connect</a></li>
+                        <li class="nav_Item"><a href="#">Contact Us</a></li>
+                        <li class="nav_Item"><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

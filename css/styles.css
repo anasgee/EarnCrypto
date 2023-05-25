@@ -1,0 +1,207 @@
+body{
+    color: white!important;
+    width: 99%;
+}
+a{
+    text-decoration: none!important;
+    color: white!important;
+}
+/* Navigation Bar */
+
+.nav_Container{
+    display: flex;
+    justify-content: evenly;
+}
+.nav_Bar{
+    padding-top: 10px;
+    background-color: rgb(10, 9, 9) !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+body{
+    background-color:rgb(10, 9, 9)!important; ;
+}
+.crypto{
+    color: rgb(184, 12, 223);
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.nav-link:hover{
+    color: rgb(184, 12, 223)!important;
+    border-bottom: 1px solid rgb(184, 12, 223);
+    transition: ease-in-out .5s;
+}
+.active{
+    color: rgb(184, 12, 223)!important;
+}
+/* navigation end */
+/* Hero Section  start*/
+.wallet-image{
+ width: 60%;
+}
+
+.hero-cta{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+.hero-cta-left{
+margin-top: 120px!important;
+}
+.hero-cta-left h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: white;
+    }
+.hero-cta-left h2{
+        font-size: 3rem;
+        font-weight: bolder;
+        color: white;
+        letter-spacing: 3px;
+        }
+ .hero-cta-left p{
+            font-size: 1rem;
+            font-weight: bolder;
+            color: rgb(174, 166, 166);
+            }
+.hero-cta-left button{
+                font-size: 1rem;
+               background-color: rgb(184, 12, 223);
+               border: 1px solid white; 
+               color: white;
+               width: 8rem;
+               height: 3rem;   
+               margin-top: 30px;
+            }
+.hero-cta-right img{
+    margin-top: 5rem;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+   
+}
+
+
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+hr{
+    color: white!important; 
+    width: 80%;
+    margin:30px auto!important;
+}
+
+/* Hero section end */
+
+/* Services Start */
+.service{
+    height: 100vh;
+}
+.cards{
+    border: 1px solid white;
+    border-radius: 5%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    width: 100%;
+    
+}
+.card-info{
+    margin: 20px 0px;
+}
+.service-heading{
+    text-align: center;
+    margin:40px!important;
+    font-size: 2rem;
+    margin-top: 30px;
+
+    }
+.card-image{
+    width: 60px;
+    margin-bottom: 10px;
+}
+.card-body{
+    color: rgb(128, 128, 128)!important;
+    margin: 20px 0px;
+    font-size: 0.8rem!important;
+}
+
+.services button{
+    font-size: 1rem;
+   background-color: rgb(184, 12, 223);
+   border: 1px solid white; 
+   border-radius: 5%;
+   color: white;
+   width: 6rem;
+   height: 2rem;   
+   margin-top: 30px;
+}
+.services .container .service-body{
+    color: rgb(128, 128, 128)!important;
+    margin-bottom: 6    0px!important;
+    text-align: center;
+}
+.card-heading{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+
+/* Services End */
+
+
+/* Footer start*/
+
+#footer{
+    color: white !important;
+    text-align: center;
+}
+.footer-crypto{
+    color: rgb(184, 12, 223);
+}
+
+/* Footer end */
+        
+/* Wallet Page */
+
+#preLoader{
+    background: #000 url("/images//loader.gif") no-repeat center center;
+    height: 100vh;
+    background-size: 5%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;   
+}
+
+
+@media only screen and (max-width:400px){
+    
+    body{
+        width: 90%;
+        margin: auto!important;
+        
+    }
+
+    .hero-cta-left{
+        text-align: left;
+    }
+    .hero-cta-left h1{
+        font-size: 3rem;
+        /* text-align: left; */
+        }
+   
+}

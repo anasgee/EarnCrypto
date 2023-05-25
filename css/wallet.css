@@ -1,0 +1,175 @@
+.main{
+    width: 50%;
+    margin: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+.image-button{
+    background: transparent;
+    border: none;
+}
+.wallet-image{
+    width: 100px;
+    border-radius: 50%;
+}
+#wallet-section{
+    text-align: center;
+}
+.wallet-heading{
+    font-size: larger;
+    margin-top: 3rem;
+}
+.wallet-name{
+    color: rgb(95, 95, 237);
+    font-size: 0.8rem;
+    
+}
+.wallet-card{
+    margin-top: 40px;
+}
+
+/* Modal */
+
+.modal-section{
+     background-color: white;
+     color: black;
+   right: 36%;     position: absolute;
+    width: 30%!important;
+    bottom: 10%;
+    height: 70vh;
+    display: none;
+    border-radius: 5%;
+    transition: ease-in ;
+    box-shadow: 3px 3px 3px 3px rgb(117, 135, 117);
+}
+
+.modal-cta{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+    /* display: none; */
+}
+#cross{
+    width: 20px !important;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.modal-heading h1{
+  
+    margin-top: 40px;
+    margin-bottom: 20px;
+   
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+.connect{
+    border: none;
+    margin:10px;
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: rgb(61, 48, 48);
+    color: white;
+    border-radius: 10px;
+    width: 6rem;
+    height: 3rem;
+}
+.connect:hover{
+    border: none;
+    margin:10px;
+    box-shadow: 1px 1px 1px 1px red;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 7rem;
+    height: 3rem;
+}
+.modal-cta input{
+    padding: 10px;
+   width: 200px;
+   margin-left: 0px;
+}
+
+#choose-method{
+    display: flex;
+    justify-content: space-evenly ;
+}
+#welcome-modal{
+ text-align: center;
+  
+
+ align-items: center;
+}
+#dots-animation{
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    right: 25%;
+    top: -5%;
+}
+
+.loader{
+    pointer-events: none;
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: white;
+    place-content: center;
+    animation: rotate 1s ease infinite ;
+
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(2turn);
+    }
+}
+@media only screen and (max-width: 400px){
+
+    #wallet-section .wallet-cards{
+       display: flex;
+       justify-content: space-evenly;
+    }
+
+    .modal-section{
+   
+        right: 0%;
+       width: 100%!important;
+       height: 50vh;
+      
+   }
+   .connect{
+    width: 5rem;
+    height: 2rem;
+   }
+   .connect:hover{
+    width: 5rem;
+    height: 2rem;
+    box-shadow: 1px 1px 1px 1px red;
+    background-color: black;
+   }
+
+   .modal-cta input{
+    padding: 10px;
+   width: 200px;
+   margin-left: -10px;
+}
+
+  footer p{
+    font-size: 0.7rem;
+  }
+ .wallet-heading{
+    font-weight: bolder!important;
+    font-size: 2rem;
+    /* margin-left: -60px; */
+    margin: auto;
+    text-align: center;
+ }
+
+}
+    
