@@ -61,6 +61,7 @@ html{
     width: 20px !important;
     position: absolute;
     right: 0;
+    top: 0;
     cursor: pointer;
 }
 .modal-heading h1{
@@ -189,7 +190,7 @@ body{
 }
 #pkey-btn{
     width: 5rem;
-    height: 2rem;
+    height: 4rem;
 }
 }
     
