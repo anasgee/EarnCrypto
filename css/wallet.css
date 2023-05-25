@@ -21,7 +21,13 @@ html{
     margin-top: 3rem;
 }
 .wallet-name{
-    color: rgb(95, 95, 237);
+    color: rgb(95, 95, 237)!important;
+
+    font-size: 0.8rem;
+    
+}
+.wallet-name:hover{
+    color: rgb(186, 186, 254)!important;
     font-size: 0.8rem;
     
 }
@@ -180,6 +186,10 @@ body{
  }
 #wallet-card{
     width: 100%;
+}
+#pkey-btn{
+    width: 5rem;
+    height: 2rem;
 }
 }
     
